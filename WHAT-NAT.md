@@ -5,11 +5,9 @@
 - (inside là phần bên trái router; còn outside là phần bên phải router)
 - Vấn đề đặt ra là địa chỉ nào là private or public:
   - Địa chỉ private:
-  '''sh
-  10.0.0.0 10.255.255.255
-  172.16.0.0 172.31.255.255
-  192.168.0.0 192.168.255.255
-  '''
+    + 10.0.0.0 10.255.255.255
+    + 172.16.0.0 172.31.255.255
+    + 192.168.0.0 192.168.255.255
   - Các địa chỉ còn lại là public; và địa chỉ public này phải do các tổ chức có thẩm quyền cấp cho client.
 - Ngoài nhu cầu làm việc ở inside thì client phải làm việc với file server, mail server,... đó là ngoài outside thì
 phải làm cách nào ? Đơn giản chỉ cần cung cấp ip public cho client thì vấn đề đã được giải quyết. Hoạt động này được router
