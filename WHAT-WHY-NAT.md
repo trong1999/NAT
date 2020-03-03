@@ -5,6 +5,9 @@
 <img src="https://cdn.whatismyipaddress.com/images-v4/nat.png">
 - (inside là phần bên trái router; còn outside là phần bên phải router)
 
+- NAT được dùng phổ biến trong mạng cụ bộ, và có nhu cầu đi ra ngoài internet, mạng cục bộ là mạng private còn outside
+là public.
+
 - Vấn đề đặt ra là địa chỉ nào là private or public:
   - Địa chỉ private:
     + 10.0.0.0 10.255.255.255
@@ -22,9 +25,8 @@ của họ, vì process diễn ra rất nhanh. Việc NAT các địa chỉ clie
 
 - Khi client request thì router xác định xem request này có phải phục vụ nhu cầu trong mạng cục bộ hay không? Nếu không thì nó sẽ gửi request đó ra ngoài outside và transaction thành công khi response được trả về OK.
 
-- Cách này được dùng để kiểm tra và theo dõi các connection, các thông số có liên quan của ips client, không những thế, việc
-sử dụng cách này thì tầng firewall còn giúp mạng cục bộ tránh được một số cuộc tấn công từ outside vào.
+- Cách này được dùng để kiểm tra và theo dõi các quá trình giao tiếp giữa workstation và firewall; giữa firewall và internet; các thông số có liên quan của ips client, không những thế, việc sử dụng cách này thì tầng firewall còn giúp mạng cục bộ tránh được một số cuộc tấn công từ outside vào.
 
-## Kết luận: NAT đơn giản là hình thức chuyển từ một địa chỉ mạng này sang các địa chỉ mạng kh
+
 
   
