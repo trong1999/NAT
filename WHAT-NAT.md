@@ -25,6 +25,6 @@ của họ, vì process diễn ra rất nhanh. Việc NAT các địa chỉ clie
 - Cách này được dùng để kiểm tra và theo dõi các connection, các thông số có liên quan của ips client, không những thế, việc
 sử dụng cách này thì tầng firewall còn giúp mạng cục bộ tránh được một số cuộc tấn công từ outside vào.
 
-## Kết luận: NAT là hình thức chuyển từ một địa chỉ mạng này sang các địa chỉ mạng kh
+## Kết luận: NAT đơn giản là hình thức chuyển từ một địa chỉ mạng này sang các địa chỉ mạng kh
 
   
